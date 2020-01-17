@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Ubuntu, sans-serif;
+}
+
+.triathlon-header {
+    background-color: #262626;
+    overflow: hidden;
+    position: relative;
+}
+
+.logo {
+    width: 160px;
+    height: 60px;
+    margin: 1.5rem;
+}
+
+.triathlon-header-menu {
+}
+
+.triathlon-header-list {
+    width: 700px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.triathlon-header-list li {
+    display: inline-block;
+    line-height: 3rem;
+    border-radius: 5px;
+    margin: 0 1rem;
+}
+
+.triathlon-header-list li a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #888888;
+
+}
+
+.triathlon-header-list li a:hover {
+    color: #ffffff;
+    border-bottom: 3px solid white;
+}
+
+
