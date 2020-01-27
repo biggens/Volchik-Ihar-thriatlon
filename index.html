@@ -2,30 +2,104 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>triathlon</title>
+  <title>Главная</title>
+  <link rel="shorcut icon" href="images/favicon.ico">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="triathlon-header">
-    <img class="logo" src="images/logo_one.png" alt="log">
-    <nav class="triathlon-header-menu">
-      <ul class="triathlon-header-list">
+  <header class="main-header">
+<!--    <img class="logo" src="images/logo_one.png" alt="log">-->
+    <nav class="main-nav">
+      <ul class="main-header__list">
         <li><a href="#">Главная</a></li>
         <li><a href="#">Новости</a></li>
         <li><a href="#">Интересно</a></li>
         <li><a href="#">О нас</a></li>
         <li><a href="#">Контакты</a></li>
+        <div class="active"></div>
       </ul>
     </nav>
   </header>
-  <section>
-
+  <main>
+  <section class="sliders">
+    <div class="slides">
+      <ul> <!-- Слайды -->
+        <li><img src="images/slide_one.png" alt="image01" />
+          <div>Описание #1</div>
+        </li>
+        <li><img src="images/slide_two.png" alt="image02" />
+          <div>Описание #2</div>
+        </li>
+        <li><img src="images/slide_three.png" alt="image03" />
+          <div>Описание #3</div>
+        </li>
+        <li><img src="images/slide_four.png" alt="image04" />
+          <div>Описание #4</div>
+        </li>
+      </ul>
+    </div>
   </section>
-  <section>
+    <div class="prob"></div>
+    <section class="items">
+      <div class="box">
+        <div class="box_item">
+          <a scr="#" title="">
+            <img class="small" src="images/swim_small.png" alt="" />
+            <img class="large" src="images/swim_large.png" alt="" />
+          </a>
+        </div>
 
+        <div class="box_item">
+          <a scr="#" title="">
+            <img class="small" src="images/run_small.png" alt="" />
+            <img class="large" src="images/run_large.png" alt="" />
+          </a>
+        </div>
+
+        <div class="box_item">
+          <a src="" title="">
+            <img class="small" src="images/cycles_small.png" alt="" />
+            <img class="large" src="images/cycles_large.png" alt="" />
+          </a>
+        </div>
+
+      </div>
+    </section>
+  <section class="about">
+    <div class="container">
+    <div class="about_item">
+      <h1 class="about_title">Swimmem</h1>
+      <img class="about_img" src="" alt="">
+      <p class="about_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aperiam at culpa dolor dolorem dolorum fugiat laboriosam minima natus neque pariatur perferendis provident quasi quo recusandae rem sequi, sit vero.
+      </p>
+      <a class="about_btn" href="#"></a>
+
+    </div>
+
+      <div class="about_item">
+        <h1 class="about_title">Run</h1>
+        <img class="about_img" src="" alt="">
+        <p class="about_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aperiam at culpa dolor dolorem dolorum fugiat laboriosam minima natus neque pariatur perferendis provident quasi quo recusandae rem sequi, sit vero.
+        </p>
+        <a class="about_btn" href="#"></a>
+
+      </div>
+
+      <div class="about_item">
+        <h1 class="about_title">Cycle</h1>
+        <img class="about_img" src="" alt="">
+        <p class="about_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aperiam at culpa dolor dolorem dolorum fugiat laboriosam minima natus neque pariatur perferendis provident quasi quo recusandae rem sequi, sit vero.
+        </p>
+        <a class="about_btn" href="#"></a>
+
+      </div>
+
+    </div>
   </section>
+  </main>
   <footer class="triathlon-footer">
-
+    <div class="footer_nav"></div>
+<div class="all_right"></div>
   </footer>
 </body>
 </html>
