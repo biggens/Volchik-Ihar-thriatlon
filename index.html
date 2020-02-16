@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Главная</title>
-  <link rel="shorcut icon" href="images/favicon.ico">
+  <link rel="shorcut icon" href="favicon.ico">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -76,24 +76,27 @@
         <div class="box_item">
           <a src="#" title="">
             <img class="small" src="images/swim_small.png" alt=""/>
-            <img class="large" src="images/swim_large.png" alt=""/>
             <img class="large--hover" src="images/swim_hover_two.png" alt=""/>
+            <img class="large" src="images/swim_large.png" alt=""/>
+            <img class="small_two" src="images/swim_small_one.png" alt=""/>
             <img class="small--hover" src="images/swim_hover.png" alt=""/>
           </a>
         </div>
         <div class="box_item">
           <a scr="#" title="">
             <img class="small" src="images/run_small.png" alt=""/>
-            <img class="large" src="images/run_large.png" alt=""/>
             <img class="large--hover" src="images/run_hover_two.png" alt=""/>
+            <img class="large" src="images/run_large.png" alt=""/>
+            <img class="small_two" src="images/run_small_one.png" alt=""/>
             <img class="small--hover" src="images/run_hover.png" alt=""/>
           </a>
         </div>
         <div class="box_item">
-          <a src="" title="">
+          <a src="#" title="">
             <img class="small" src="images/cycles_small.png" alt=""/>
-            <img class="large" src="images/cycles_large.png" alt=""/>
             <img class="large--hover" src="images/cycles_hover_two.png" alt=""/>
+            <img class="large" src="images/cycles_large.png" alt=""/>
+            <img class="small_two" src="images/cycles_small_one.png" alt=""/>
             <img class="small--hover" src="images/cycles_hover.png" alt=""/>
           </a>
         </div>
@@ -127,34 +130,53 @@
     </div>
   </section>
   <footer>
-    <nav class="footer_nav">
-      <ul>
-        <h2>Мультиспорт</h2>
-        <li><a href="#">Акватлон</a></li>
-        <li><a href="#">Дуатлон</a></li>
-        <li><a href="#">Зимний триатлон</a></li>
+    <div class="accordion-nav">
+      <ul id="accordion">
+        <li class="accordion-list">
+          <div class="accordion-title">
+            <span>Мультиспорт</span>
+          </div>
+          <ul class="accordion-submenu">
+            <li><a href="#">Акватлон</a></li>
+            <li><a href="#">Дуатлон</a></li>
+            <li><a href="#">Зимний триатлон</a></li>
+          </ul>
+        </li>
+        <li class="accordion-list">
+          <div class="accordion-title">
+            <span>Питание</span>
+          </div>
+          <ul class="accordion-submenu">
+            <li><a href="#">Спортивные добавки</a></li>
+            <li><a href="#">Правильное питание</a></li>
+            <li><a href="#">Питание на подготовке</a></li>
+          </ul>
+        </li>
+        <li class="accordion-list">
+          <div class="accordion-title">
+            <span>Соревнования</span>
+          </div>
+          <ul class="accordion-submenu">
+            <li><a href="#">Ближайшие старты</a></li>
+            <li><a href="#">Результаты</a></li>
+            <li><a href="#">Регламент</a></li>
+          </ul>
+        </li>
+        <li class="accordion-list">
+          <div class="accordion-title">
+            <span>Федерация</span>
+          </div>
+          <ul class="accordion-submenu">
+            <li><a href="#">История</a></li>
+            <li><a href="#">Развитие спорта</a></li>
+          </ul>
+        </li>
       </ul>
-      <ul>
-        <h2>Питание</h2>
-        <li><a href="#">Спортивные добавки</a></li>
-        <li><a href="#">Правильное питание</a></li>
-        <li><a href="#">Питание на подготовке</a></li>
-      </ul>
-      <ul>
-        <h2>Соревнования</h2>
-        <li><a href="#">Ближайшие старты</a></li>
-        <li><a href="#">Результаты</a></li>
-        <li><a href="#">Регламент</a></li>
-      </ul>
-      <ul>
-        <h2>Развитие спорта</h2>
-        <li><a href="#">История</a></li>
-        <li><a href="#">Федерация</a></li>
-      </ul>
-    </nav>
-    <div class="footer-copy">
+    </div>
+    <div class="footer-law">
       <p>© 2020 Triathlon. Все права защищены.</p>
     </div>
   </footer>
+  <script src="main.js"></script>
 </body>
 </html>
