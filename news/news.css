@@ -1,0 +1,113 @@
+.page {
+    background-color: #F3F7F9;
+    -webkit-box-shadow: inset 0 31px 47px -9px rgba(0, 0, 0, 0.46);
+    box-shadow: inset 0 31px 47px -9px rgba(0, 0, 0, 0.46);
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 4rem 4rem 1rem 4rem;
+}
+
+.content-items {
+    width: 80%;
+    margin-right: 2.5rem;
+}
+
+.content-item {
+    max-width: 800px;
+    margin-bottom: 3rem;
+    background-color: white;
+    -webkit-box-shadow: 0 5px 13px -1px rgba(0, 0, 0, 0.64);
+    box-shadow: 0 5px 13px -1px rgba(0, 0, 0, 0.64);
+}
+
+.item-img {
+    width: 100%;
+    height: auto;
+}
+
+.item-title {
+    margin: 1.5rem 3rem;
+    color: #000409;
+}
+
+.item-date {
+    margin-left: 3rem;
+    color: #B9BABB;
+}
+
+.item-desc {
+    margin: 0 3rem 2rem 3rem;
+    color: #737678;
+    text-align: justify;
+}
+
+.content-btn {
+    margin: 0 3rem 2rem;
+    float: right;
+    display: inline-block;
+    box-sizing: border-box;
+    line-height: 2.5;
+    padding: 0 2rem;
+    border-radius: 3px;
+    color: #5C5F62;
+    font-size: 90%;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    background: linear-gradient(to bottom, #6A8592, #C2D5DF, #6A8592);
+}
+
+.content-btn:hover {
+    background: linear-gradient(to bottom, #C2D5DF, #6A8592, #C2D5DF);
+    color: white;
+}
+
+.content-item:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.content__popular {
+
+}
+
+.content-popular__title {
+    margin: 0 0 1.5rem;
+}
+
+.popular__item {
+    margin-bottom: 2.5rem;
+    box-sizing: border-box;
+    border-bottom: 2px solid #B9BABB;;
+    padding-bottom: 1.5rem;
+    width: 100%;
+    height: auto;
+}
+
+.popular__link {
+    color: #000409;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: right;
+    cursor: pointer;
+}
+
+.popular__img {
+    margin-right: 0.7rem;
+    float: left;
+}
+
+.popular__date {
+    color: #737678;
+}
+
+.popular__date:after {
+    display: block;
+    content: '';
+    clear: both;
+}
