@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: row;
     margin: 0 auto;
-    padding: 4rem 4rem 1rem 4rem;
+    padding: 4rem 4rem 0 4rem;
 }
 
 .content-items {
@@ -17,7 +17,6 @@
 }
 
 .content-item {
-    max-width: 800px;
     margin-bottom: 3rem;
     background-color: white;
     -webkit-box-shadow: 0 5px 13px -1px rgba(0, 0, 0, 0.64);
@@ -53,12 +52,12 @@
     line-height: 2.5;
     padding: 0 2rem;
     border-radius: 3px;
+    background: linear-gradient(to bottom, #6A8592, #C2D5DF, #6A8592);
     color: #5C5F62;
     font-size: 90%;
     font-weight: 700;
     text-decoration: none;
     text-align: center;
-    background: linear-gradient(to bottom, #6A8592, #C2D5DF, #6A8592);
 }
 
 .content-btn:hover {
@@ -83,7 +82,7 @@
 .popular__item {
     margin-bottom: 2.5rem;
     box-sizing: border-box;
-    border-bottom: 2px solid #B9BABB;;
+    border-bottom: 2px solid #B9BABB;
     padding-bottom: 1.5rem;
     width: 100%;
     height: auto;
@@ -95,6 +94,10 @@
     font-weight: 700;
     text-align: right;
     cursor: pointer;
+}
+
+.popular__link:hover {
+    color: grey;
 }
 
 .popular__img {
@@ -110,4 +113,90 @@
     display: block;
     content: '';
     clear: both;
+}
+
+@media screen and (max-width: 950px) {
+    .content {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 3rem 3rem 0 3rem;
+    }
+
+    .content-items {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .content-item {
+        margin-bottom: 2rem;
+    }
+
+    .content__popular {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        padding-bottom: 1.2rem;
+    }
+
+    .content-popular__title {
+        display: none;
+    }
+
+    .popular__item {
+        width: 20%;
+        margin: 0 0.2rem;
+        border-bottom: none;
+    }
+
+    .popular__link {
+        font-size: 0.8em;
+    }
+
+    .popular__img {
+        float: none;
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .popular__date {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        padding: 2rem 2rem 0 2rem;
+    }
+
+    .content__popular {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .content {
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    .content-item {
+        margin-bottom: 1rem;
+    }
+
+    .item-title {
+        margin: 1rem 2rem;
+    }
+
+    .item-date {
+        margin-left: 2rem;
+    }
+
+    .item-desc {
+        margin: 0 2rem 1rem 2rem;
+    }
+
+    .content-btn {
+        margin: 0 2rem 1rem;
+    }
 }
