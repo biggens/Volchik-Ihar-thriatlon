@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Контакты</title>
+  <link rel="shorcut icon" href="../favicon.ico">
+  <link rel="stylesheet" href="../shared.css">
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <header class="main-header">
+    <nav class="main-nav">
+      <ul class="main-header__list">
+        <li><a href="../index.html">Главная</a></li>
+        <li><a href="../news/index.html">Новости</a></li>
+        <li><a href="#">Интересно</a></li>
+        <li><a href="#">О нас</a></li>
+        <li><a href="contact.html">Контакты</a></li>
+        <div class="nav-active"></div>
+      </ul>
+    </nav>
+  </header>
+  <div class="contacts">
+    <form class="contacts__form" action="#" method="post">
+      <h2 class="form__title">Контакты</h2>
+      <p class="form__desc">Пожалуйста заполните нашу контактную форму,связанную с вашим запросом.</p>
+      <p class="form__part-name">
+        <label class="form__name" for="name">имя:</label></br>
+        <input class="form__name-window" type="text" id="name" name="name" size="23">
+      </p>
+      <p class="form__part-email">
+        <label class="form__email" for="email">email:</label></br>
+        <input class="form__email-window" type="text" id="email" name="email" size="23">
+      </p>
+      <p class="form__message-name">сообщение:</p>
+      <textarea class="form__message" name="message" rows="10" cols="30"></textarea></br>
+      <input class="form__btn" type="button" value="отправить">
+    </form>
+    <div class="contacts__adress">
+      <h2 class="adress__title">Email</h2>
+      <p class="adress__desc">biggens.man@gmail.com</p>
+      <h2 class="adress__title">Телефон</h2>
+      <p class="adress__desc">+375338940838</p>
+      <h2 class="adress__title">Skype</h2>
+      <p class="adress__desc">marcus</p>
+      <h2 class="adress__title">Адрес</h2>
+      <p class="adress__desc">г.Гродно, ул.Ленина15/4 кв.175</p>
+    </div>
+  </div>
+  <footer>
+    <div class=" accordion-nav">
+      <ul id="accordion">
+        <li class="accordion-list">
+          <div class="accordion-title">
+            <span>Мультиспорт</span>
+          </div>
+          <ul class="accordion-submenu">
+            <li><a href="#">Акватлон</a></li>
+            <li><a href="#">Дуатлон</a></li>
+            <li><a href="#">Зимний триатлон</a></li>
+          </ul>
+        </li>
+        <li class="accordion-list">
+          <div class="accordion-title">
+            <span>Питание</span>
+          </div>
+          <ul class="accordion-submenu">
+            <li><a href="#">Спортивные добавки</a></li>
+            <li><a href="#">Правильное питание</a></li>
+            <li><a href="#">Питание на подготовке</a></li>
+          </ul>
+        </li>
+        <li class="accordion-list">
+          <div class="accordion-title">
+            <span>Соревнования</span>
+          </div>
+          <ul class="accordion-submenu">
+            <li><a href="#">Ближайшие старты</a></li>
+            <li><a href="#">Результаты</a></li>
+            <li><a href="#">Регламент</a></li>
+          </ul>
+        </li>
+        <li class="accordion-list">
+          <div class="accordion-title">
+            <span>Федерация</span>
+          </div>
+          <ul class="accordion-submenu">
+            <li><a href="#">История</a></li>
+            <li><a href="#">Развитие спорта</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-law">
+      <p>© 2020 Triathlon. Design and development Volchik Ihar.</p>
+    </div>
+  </footer>
+  <script src="../main.js"></script>
+</body>
+</html>

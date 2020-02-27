@@ -1,0 +1,128 @@
+.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1rem;
+    padding: 3rem 2rem 3rem;
+}
+
+.contacts__form {
+    margin-right: 1rem;
+}
+
+.form__part-name {
+    display: block;
+    float: left;
+    margin: 0;
+}
+
+.form__name, .form__message-name,
+.form__email {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9em;
+}
+
+.form__name:after, .form__email:after,
+.form__message-name:after {
+    content: '\2217';
+    color: red;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.form__name-window, .form__email-window {
+    height: 1.5rem;
+}
+
+.form__name-window, .form__email-window,
+.form__message {
+    border: 2px solid #597886;
+}
+
+.form__part-email {
+    display: block;
+    margin: 0;
+    text-align: right;
+}
+
+.form__part-email:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.form__email {
+    margin-right: 8.5rem;
+}
+
+.form__message-name {
+    margin-bottom: 0;
+}
+
+.form__message {
+    display: block;
+    width: 99%;
+    margin: 0.1rem auto;
+}
+
+.form__btn {
+    overflow: hidden;
+    padding: 0 0.75em;
+    margin: 0;
+    max-width: 100%;
+    height: 2.5em;
+    border: 2px solid #597886;
+    border-radius: 0.25em;
+    font-size: 0.9em;
+    font-weight: 600;
+    text-align: center;
+    text-overflow: ellipsis;
+    line-height: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.form__btn:hover {
+    background-color: #597886;
+    color: white;
+}
+
+.contacts__adress {
+    background-color: white;
+    border: 2px solid #597886;
+    padding: 0 1rem;
+}
+
+.adress__desc {
+    font-weight: bold;
+    color: #737678;
+}
+
+@media screen and (max-width: 768px) {
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 2rem 2rem;
+    }
+
+    .contacts__form {
+        margin-right: 0;
+    }
+
+    .contacts__adress {
+        margin: 1.3rem 0 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .form__part-name {
+        float: none;
+    }
+
+    .form__part-email {
+        text-align: left;
+    }
+}
