@@ -106,7 +106,7 @@
 
 .slider ul li img {
     display: block;
-    max-width: 100%;
+    width: 120%;
     height: auto;
 }
 
@@ -185,7 +185,7 @@
     left: 10%;
     margin: 0 auto;
     position: absolute;
-    top: 60%;
+    top: 40%;
     width: 40%;
     -webkit-box-shadow: -10px 0 13px -7px #000000, 10px 0 13px -7px #000000, 0 -2px 7px 9px rgba(0, 0, 0, 0.07);
     box-shadow: -10px 0 13px -7px #000000, 10px 0 13px -7px #000000, 0 -2px 7px 9px rgba(0, 0, 0, 0.07);
