@@ -1,0 +1,24 @@
+.intrest {
+    padding: 2rem 2rem;
+}
+
+.intrest__title {
+    margin: 0;
+}
+
+.intrest p {
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 480px) {
+    .intrest {
+        padding: 1rem 1.5rem;
+    }
+
+    .intrest p {
+        font-size: 1rem;
+        line-height: 1;
+    }
+}
