@@ -1,0 +1,29 @@
+.about {
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.about__title {
+    margin: 0;
+}
+
+.about p {
+    text-align: justify;
+}
+
+.about__img {
+    display: block;
+    margin: 2rem auto;
+    width: 80%;
+}
+
+@media screen and (max-width: 480px) {
+    .about__img {
+        width: 100%;
+        margin: 1rem auto;
+    }
+
+    .about__img:last-child {
+        margin-bottom: 0;
+    }
+}
